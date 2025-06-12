@@ -13,6 +13,7 @@ public class Ejercicio17 {
 		//Empiezo desde 1 para que cuente siempre la primera palabra
 		int contadorPalabras = 1;
 		
+		
 		//Recorro la frase y cuento las palabras
 		for (int i = 0; i < palabra.length(); i++) {
 			if(palabra.charAt(i) == ' ') {
